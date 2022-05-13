@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
-    [SerializeField] float Hiz;
+    [SerializeField] float speed;
     Rigidbody2D rb;
     
     void Start () 
@@ -13,8 +13,8 @@ public class playerController : MonoBehaviour
     }
     void Update () 
     {
-        float yatay = Input.GetAxis("Horizontal");
-        Vector3 hareket = new Vector3(yatay*Hiz, 0.0f); 
-        rb.AddForce(hareket);
+        float horizontal = Input.GetAxis("Horizontal");
+        Vector3 movement = new Vector3(horizontal*speed, 0.0f); 
+        rb.AddForce(movement);
     }
 }
