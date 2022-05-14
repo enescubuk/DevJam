@@ -23,6 +23,7 @@ public class catController : MonoBehaviour
     bool canClimb;
     float treeOffset = 0.75f;
     Vector3 treePos;
+    Vector2 maxSpeed = new Vector2(4,0);
     void Start()
     {
         
@@ -120,6 +121,15 @@ public class catController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         Vector3 movement = new Vector3(horizontal*speed, 0.0f);
         rb.AddForce(movement);
+        if (rb.velocity.x > maxSpeed.x)
+        {
+            rb.velocity = new Vector2(maxSpeed.x,rb.velocity.y);
+        }
+        if (rb.velocity.x < -maxSpeed.x)
+        {
+            rb.velocity = new Vector2(-maxSpeed.x, rb.velocity.y);
+
+        }
     }
 
     void Update()
