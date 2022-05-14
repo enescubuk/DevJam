@@ -141,7 +141,7 @@ public class catController : MonoBehaviour
         if (canClimb)
         {
             Debug.Log("içerdeyim baba");
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 Climb();
             }

@@ -23,10 +23,12 @@ public class RabbitController : MonoBehaviour
 
     [SerializeField] float fallValue;
     Rigidbody2D rb => GetComponent<Rigidbody2D>();
+    private float nextActionTime = 0.0f;
+    public float period = 0.1f;
 
     public Animator anim;
 
-    GameObject ChildGameObject1 => transform.GetChild(0).gameObject;
+    //GameObject ChildGameObject1 => transform.GetChild(0).gameObject;
     void Start()
     {
         
@@ -104,15 +106,15 @@ public class RabbitController : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal");
         if (horizontal < 0)
-        {
+        {   
 
-            ChildGameObject1.GetComponent<SpriteRenderer>().flipX = true;
+            //ChildGameObject1.GetComponent<SpriteRenderer>().flipX = true;
             anim.SetBool("isRabbitRun", true);
 
         }
         if (horizontal > 0)
         {
-            ChildGameObject1.GetComponent<SpriteRenderer>().flipX = false;
+            //ChildGameObject1.GetComponent<SpriteRenderer>().flipX = false;
             anim.SetBool("isRabbitRun", true);
             
         }
@@ -143,6 +145,13 @@ public class RabbitController : MonoBehaviour
         Movement();
         ControlRays();
         Jump();
+        if (Time.time > nextActionTime ) 
+        {
+            nextActionTime += period;
+         // execute block of code here
+            Debug.Log("çalıştı");
+            rb.AddForce(new Vector2(0,150));
+        }
     }
     private void FixedUpdate()
     {
