@@ -18,7 +18,14 @@ public class heroChanger : MonoBehaviour
     void Update()
     {
         whichArray();
-        
+        if (arrayNumber == 2)
+        {
+            heros[2].GetComponent<RabbitController>().isPlayingRabbit = true;
+        }
+        else
+        {
+            heros[2].GetComponent<RabbitController>().isPlayingRabbit = false;
+        }
     }    
     void whichArray()
     {

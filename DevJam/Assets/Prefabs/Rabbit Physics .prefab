@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4483478905573509185
 Transform:
   m_ObjectHideFlags: 0
@@ -126,6 +126,7 @@ MonoBehaviour:
   fallValue: 0
   period: 1
   anim: {fileID: 4483478905573510078}
+  isPlayingRabbit: 0
 --- !u!50 &4483478905573510079
 Rigidbody2D:
   serializedVersion: 4

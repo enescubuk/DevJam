@@ -261,7 +261,7 @@ MonoBehaviour:
   isHitLeft: 0
   isHitDown: 0
   jump: {x: 0, y: 2, z: 0}
-  jumpForce: 2
+  jumpForce: 3
   maxSpeed: {x: 4, y: 0}
   speed: 2
   anim: {fileID: 7928736348080524113}

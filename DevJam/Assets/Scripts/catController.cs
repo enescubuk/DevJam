@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class catController : MonoBehaviour
 {
-    float speed = 2;
+    public float speed = 2;
     float RayOffset = 1; 
     //Length of the ray
     float laserLengthRight = 0.1f;

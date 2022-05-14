@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 234430402}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: sag
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 989536141}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: sol
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -737,7 +737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7928736348737076958, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.26
+      value: 1.84
       objectReference: {fileID: 0}
     - target: {fileID: 7928736348737076958, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
       propertyPath: m_LocalPosition.y

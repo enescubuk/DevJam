@@ -27,6 +27,7 @@ public class RabbitController : MonoBehaviour
     public float period = 0.1f;
 
     public Animator anim;
+    public bool isPlayingRabbit;
 
     //GameObject ChildGameObject1 => transform.GetChild(0).gameObject;
     void Start()
@@ -127,7 +128,7 @@ public class RabbitController : MonoBehaviour
         //rb.velocity = movement;
         rb.AddForce(movement);
         
-       
+        
         if (rb.velocity.x > maxSpeed.x)
         {
             rb.velocity = new Vector2(maxSpeed.x,rb.velocity.y);
@@ -149,8 +150,11 @@ public class RabbitController : MonoBehaviour
         {
             nextActionTime += period;
          // execute block of code here
-            Debug.Log("çalıştı");
-            rb.AddForce(new Vector2(0,150));
+            Debug.Log("çalişti");
+            if (isHitDown == true && isPlayingRabbit == true)
+            {
+                rb.AddForce(new Vector2(0,150));
+            }
         }
     }
     private void FixedUpdate()
