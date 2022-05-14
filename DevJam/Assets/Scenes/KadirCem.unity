@@ -160,13 +160,14 @@ MonoBehaviour:
   RayOffset: 0.6
   laserLengthRight: 1
   laserLengthLeft: 1
-  laserLengthDown: 1
+  laserLengthDown: 0.1
   isHitRight: 0
   isHitLeft: 0
   isHitDown: 0
   jump: {x: 0, y: 2, z: 0}
-  jumpForce: 2
-  speed: 10
+  jumpForce: 3
+  speed: 5
+  maxSpeed: {x: 4, y: 0}
   anim: {fileID: 625672090}
 --- !u!114 &151044604
 MonoBehaviour:
@@ -226,7 +227,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 10, y: 10}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -265,7 +266,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 10, y: 10}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 10, y: 10}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -655,6 +656,7 @@ MonoBehaviour:
   jump: {x: 0, y: 2, z: 0}
   jumpForce: 5
   speed: 0
+  maxSpeed: {x: 0, y: 0}
   anim: {fileID: 0}
 --- !u!114 &625672094
 MonoBehaviour:

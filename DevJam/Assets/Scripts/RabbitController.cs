@@ -20,6 +20,8 @@ public class RabbitController : MonoBehaviour
 
     [SerializeField] float speed;
     [SerializeField] Vector2 maxSpeed;
+
+    [SerializeField] float fallValue;
     Rigidbody2D rb => GetComponent<Rigidbody2D>();
 
     public Animator anim;
@@ -141,6 +143,14 @@ public class RabbitController : MonoBehaviour
 
     }
 
+    void Fall()
+    {
+
+        if (transform.position.y < fallValue)
+        {
+
+        }
+    }
     void Update()
     {
         anim.SetFloat("Blend", rb.velocity.y);
