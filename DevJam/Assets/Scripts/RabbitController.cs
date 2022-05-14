@@ -19,6 +19,7 @@ public class RabbitController : MonoBehaviour
     public float jumpForce = 2.0f;
 
     [SerializeField] float speed;
+    [SerializeField] Vector2 maxSpeed;
     Rigidbody2D rb => GetComponent<Rigidbody2D>();
 
     public Animator anim;
@@ -78,17 +79,30 @@ public class RabbitController : MonoBehaviour
     
     void Jump()
     {
+        
+        if (Input.GetKeyDown(KeyCode.Space) && isHitDown)
+        {
 
-            if (Input.GetKeyDown(KeyCode.Space) && isHitDown)
-            {
-            Debug.Log(0);
-            rb.velocity += new Vector2(0, jumpForce) * Time.deltaTime;
-            //rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
+            //StartCoroutine(isRabbitJumpCoroutine());
 
-            }
+            rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
 
+            anim.SetBool("isRabbitJump", true);
+            
+           
+            
+        }
+        if (isHitDown == false)
+        {
+            anim.SetBool("isRabbitJump", true);
+        }
+        if (isHitDown)
+        {
+            anim.SetBool("isRabbitJump", false);
+        }
     }
 
+    
     void Movement()
     {
         float horizontal = Input.GetAxis("Horizontal");
@@ -111,15 +125,31 @@ public class RabbitController : MonoBehaviour
         }
         Vector3 movement = new Vector3(horizontal * speed, 0.0f);
 
-        rb.velocity = new Vector2(movement.x,0);
-        //rb.AddForce(movement);
+        //rb.velocity = movement;
+        rb.AddForce(movement);
         
+        Debug.Log(rb.velocity);
+        if (rb.velocity.x > maxSpeed.x)
+        {
+            rb.velocity = new Vector2(maxSpeed.x,rb.velocity.y);
+        }
+        if (rb.velocity.x < -maxSpeed.x)
+        {
+            rb.velocity = new Vector2(-maxSpeed.x, rb.velocity.y);
+
+        }
+
     }
 
     void Update()
     {
+        anim.SetFloat("Blend", rb.velocity.y);
         Movement();
         ControlRays();
         Jump();
+    }
+    private void FixedUpdate()
+    {
+        //Jump();
     }
 }
