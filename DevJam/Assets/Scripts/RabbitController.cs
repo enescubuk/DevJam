@@ -46,7 +46,7 @@ public class RabbitController : MonoBehaviour
         if (hitDown.collider != null)
         {
             //Hit something, print the tag of the object
-            Debug.Log("Hitting: " + hitDown.collider.tag);
+            
 
             isHitDown = true;
 
@@ -56,9 +56,6 @@ public class RabbitController : MonoBehaviour
         if (hitLeft.collider != null)
         {
             //Hit something, print the tag of the object
-
-            Debug.Log("Hitting: " + hitLeft.collider.tag);
-
             isHitLeft = true;
 
         }
@@ -67,15 +64,13 @@ public class RabbitController : MonoBehaviour
         if (hitRight.collider != null)
         {
             //Hit something, print the tag of the object
-            Debug.Log("Hitting: " + hitRight.collider.tag);
-
             isHitRight = true;
         }
         else isHitRight = false;
         //Method to draw the ray in scene for debug purpose
-        Debug.DrawRay(new Vector3(transform.position.x + 0.5f, transform.position.y, transform.position.z), Vector2.right * laserLengthRight, Color.red);
-        Debug.DrawRay(new Vector3(transform.position.x - 0.5f, transform.position.y, transform.position.z), Vector2.left * laserLengthLeft, Color.red);
-        Debug.DrawRay(new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z), Vector2.down * laserLengthDown, Color.red); 
+        Debug.DrawRay(new Vector3(transform.position.x + +RayOffset, transform.position.y, transform.position.z), Vector2.right * laserLengthRight, Color.red);
+        Debug.DrawRay(new Vector3(transform.position.x - +RayOffset, transform.position.y, transform.position.z), Vector2.left * laserLengthLeft, Color.red);
+        Debug.DrawRay(new Vector3(transform.position.x, transform.position.y - +RayOffset, transform.position.z), Vector2.down * laserLengthDown, Color.red); 
 
     }
     
@@ -130,7 +125,7 @@ public class RabbitController : MonoBehaviour
         //rb.velocity = movement;
         rb.AddForce(movement);
         
-        Debug.Log(rb.velocity);
+       
         if (rb.velocity.x > maxSpeed.x)
         {
             rb.velocity = new Vector2(maxSpeed.x,rb.velocity.y);
@@ -141,15 +136,6 @@ public class RabbitController : MonoBehaviour
 
         }
 
-    }
-
-    void Fall()
-    {
-
-        if (transform.position.y < fallValue)
-        {
-
-        }
     }
     void Update()
     {
