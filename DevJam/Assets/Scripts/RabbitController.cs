@@ -14,12 +14,17 @@ public class RabbitController : MonoBehaviour
     public bool isHitRight;
     public bool isHitLeft;
     public bool isHitDown;
+
+    public Vector3 jump;
+    public float jumpForce = 2.0f;
+
+    Rigidbody2D rb => GetComponent<Rigidbody2D>();
     void Start()
     {
         
     }
 
-    void ControlRays()
+    public void ControlRays()
     {
 
         //Get the first object hit by the ray
@@ -66,8 +71,20 @@ public class RabbitController : MonoBehaviour
 
     }
     
+    void Jump()
+    {
+
+            if (Input.GetKeyDown(KeyCode.Space) && isHitDown)
+            {
+            Debug.Log(0);
+            rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
+            }
+
+    }
+
     void Update()
     {
         ControlRays();
+        Jump();
     }
 }
