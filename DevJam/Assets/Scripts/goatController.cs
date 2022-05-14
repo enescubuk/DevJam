@@ -140,7 +140,7 @@ public class goatController : MonoBehaviour
     }
     void Update()
     {
-        if(anim.GetCurrentAnimatorStateInfo(0).IsName("isGoatKafa") == false)
+        if(anim.GetCurrentAnimatorStateInfo(0).IsName("GoatKafa") == false)
         {
             Movement();
             ControlRays();
@@ -188,6 +188,7 @@ public class goatController : MonoBehaviour
         {
             anim.SetTrigger("isGoatKafa");
         }
+
     }
 
     
