@@ -18,7 +18,12 @@ public class RabbitController : MonoBehaviour
     public Vector3 jump;
     public float jumpForce = 2.0f;
 
+    [SerializeField] float speed;
     Rigidbody2D rb => GetComponent<Rigidbody2D>();
+
+    public Animator anim;
+
+    GameObject ChildGameObject1 => transform.GetChild(0).gameObject;
     void Start()
     {
         
@@ -77,13 +82,43 @@ public class RabbitController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space) && isHitDown)
             {
             Debug.Log(0);
-            rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
+            rb.velocity += new Vector2(0, jumpForce) * Time.deltaTime;
+            //rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
+
             }
 
     }
 
+    void Movement()
+    {
+        float horizontal = Input.GetAxis("Horizontal");
+        if (horizontal < 0)
+        {
+
+            ChildGameObject1.GetComponent<SpriteRenderer>().flipX = true;
+            anim.SetBool("isRabbitRun", true);
+
+        }
+        if (horizontal > 0)
+        {
+            ChildGameObject1.GetComponent<SpriteRenderer>().flipX = false;
+            anim.SetBool("isRabbitRun", true);
+            
+        }
+        if (horizontal == 0)
+        {
+            anim.SetBool("isRabbitRun", false);
+        }
+        Vector3 movement = new Vector3(horizontal * speed, 0.0f);
+
+        rb.velocity = new Vector2(movement.x,0);
+        //rb.AddForce(movement);
+        
+    }
+
     void Update()
     {
+        Movement();
         ControlRays();
         Jump();
     }

@@ -14,7 +14,16 @@ public class playerController : MonoBehaviour
     void Update () 
     {
         float horizontal = Input.GetAxis("Horizontal");
-        Vector3 movement = new Vector3(horizontal*speed, 0.0f); 
+        if (horizontal < 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
+        Vector3 movement = new Vector3(horizontal*speed, 0.0f);
+        
         rb.AddForce(movement);
     }
 }
