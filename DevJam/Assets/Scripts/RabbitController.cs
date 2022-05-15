@@ -150,7 +150,7 @@ public class RabbitController : MonoBehaviour
         {
             nextActionTime += period;
          // execute block of code here
-            Debug.Log("çalişti");
+            
             if (isHitDown == true && isPlayingRabbit == true && Input.GetAxis("Horizontal") != 0)
             {
                 rb.AddForce(new Vector2(0,150));

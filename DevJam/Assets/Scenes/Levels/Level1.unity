@@ -6502,6 +6502,7 @@ MonoBehaviour:
   cat: {fileID: 1470639964}
   goat: {fileID: 1153932115}
   fallValue: -10
+  damageValue: -12
 --- !u!4 &2146519947
 Transform:
   m_ObjectHideFlags: 0
