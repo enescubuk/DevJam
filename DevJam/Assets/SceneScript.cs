@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class SceneScript : MonoBehaviour
 {
     [SerializeField] GameObject rabbit;
+    [SerializeField] GameObject cat;
+    [SerializeField] GameObject goat;
     [SerializeField] float fallValue;
     void Start()
     {
@@ -16,13 +18,30 @@ public class SceneScript : MonoBehaviour
     void Update()
     {
         RabbitFall();
+        GoatFall();
+        CatFall();
     }
     void RabbitFall()
     {
 
         if (rabbit.transform.position.y < fallValue)
         {
-            Debug.Log(31);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+    void GoatFall()
+    {
+        if (goat.transform.position.y < fallValue)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+    void CatFall()
+    {
+
+        if (cat.transform.position.y < fallValue)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }

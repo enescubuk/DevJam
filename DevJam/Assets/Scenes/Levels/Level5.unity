@@ -450,7 +450,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rabbit: {fileID: 151044602}
-  fallValue: -5
+  cat: {fileID: 1470639964}
+  goat: {fileID: 1153932115}
+  fallValue: -10
 --- !u!4 &748085549
 Transform:
   m_ObjectHideFlags: 0
