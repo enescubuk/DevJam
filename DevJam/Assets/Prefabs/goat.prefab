@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f7a8e18acde58e4b90b78aef88cf218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextLevel: 0
   RayOffset: 0.7
   laserLengthRight: 0.3
   laserLengthLeft: 0.3
@@ -108,8 +109,10 @@ MonoBehaviour:
   jump: {x: 0, y: 2, z: 0}
   jumpForce: 2
   maxSpeed: {x: 0, y: 0}
+  isStone: 0
   speed: 10
   anim: {fileID: 7928736348080524113}
+  animTas: {fileID: 0}
 --- !u!61 &7928736348080524118
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -254,6 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f7a8e18acde58e4b90b78aef88cf218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextLevel: 0
   RayOffset: 0.7
   laserLengthRight: 0.3
   laserLengthLeft: 0.3
@@ -265,8 +269,10 @@ MonoBehaviour:
   jump: {x: 0, y: 2, z: 0}
   jumpForce: 3
   maxSpeed: {x: 4, y: 0}
-  speed: 2
+  isStone: 0
+  speed: 5
   anim: {fileID: 7928736348080524113}
+  animTas: {fileID: 0}
 --- !u!50 &7928736348737076955
 Rigidbody2D:
   serializedVersion: 4

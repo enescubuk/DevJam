@@ -29,7 +29,10 @@ public class SceneScript : MonoBehaviour
     }
     void RabbitFall()
     {
-
+        if (rabbitScript.nextLevel == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
         if (rabbit.transform.position.y < fallValue)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -41,6 +44,10 @@ public class SceneScript : MonoBehaviour
     }
     void GoatFall()
     {
+        if (goatScript.nextLevel == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
         if (goat.transform.position.y < fallValue)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -52,7 +59,10 @@ public class SceneScript : MonoBehaviour
     }
     void CatFall()
     {
-
+        if (catScript.nextLevel == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
         if (cat.transform.position.y < fallValue)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RabbitController : MonoBehaviour
 {
-
+    public bool nextLevel;
     [SerializeField] private float RayOffset; 
     //Length of the ray
     public float laserLengthRight = 2f;
@@ -32,7 +32,7 @@ public class RabbitController : MonoBehaviour
     //GameObject ChildGameObject1 => transform.GetChild(0).gameObject;
     void Start()
     {
-        
+        nextLevel = false;
     }
 
     public void ControlRays()
@@ -105,7 +105,15 @@ public class RabbitController : MonoBehaviour
     
     void Movement()
     {
-        float horizontal = Input.GetAxis("Horizontal");
+        float horizontal = 0f;
+        if (Input.GetKey(KeyCode.A))
+        {
+            horizontal = -5;
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            horizontal = 5f;
+        }
         if (horizontal < 0)
         {   
 
@@ -160,5 +168,13 @@ public class RabbitController : MonoBehaviour
     private void FixedUpdate()
     {
         //Jump();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Flag")
+        {
+            nextLevel = true;
+        }
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class goatController : MonoBehaviour
 {
-
+    public bool nextLevel;
     [SerializeField] private float RayOffset; 
     //Length of the ray
     public float laserLengthRight = 0.3f;
@@ -172,6 +172,10 @@ public class goatController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
+        if (col.gameObject.tag == "Flag")
+        {
+            nextLevel = true;
+        }
         if (col.gameObject.tag=="kırılanTaş")
         {
             if (anim.GetCurrentAnimatorStateInfo(0).IsName("GoatKafa") == true)
@@ -180,6 +184,7 @@ public class goatController : MonoBehaviour
             }
             
         }
+        
     }
 
    
@@ -187,7 +192,16 @@ public class goatController : MonoBehaviour
     
     void Movement()
     {
-        float horizontal = Input.GetAxis("Horizontal");
+        float horizontal=0f;
+        if (Input.GetKey(KeyCode.A))
+        {
+            horizontal = -5;
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            horizontal = 5f;
+        }
+        //float horizontal = Input.GetAxis("Horizontal");
         if (horizontal < 0)
         {
             ChildGameObject1.GetComponent<SpriteRenderer>().flipX = true;
@@ -220,7 +234,7 @@ public class goatController : MonoBehaviour
 
     void headOf()
     {
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             anim.SetTrigger("isGoatKafa");
         }
@@ -233,6 +247,7 @@ public class goatController : MonoBehaviour
             Debug.Log("öldü");
         }
     }
-
     
+
+
 }

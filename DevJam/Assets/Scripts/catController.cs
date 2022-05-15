@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class catController : MonoBehaviour
 {
+    public bool nextLevel;
     public Animator treeAnimator;
     public float speed = 2;
     float RayOffset = 1; 
@@ -138,18 +139,20 @@ public class catController : MonoBehaviour
     }
     void charMove()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        Vector3 movement = new Vector3(horizontal*speed, 0.0f);
-        rb.AddForce(movement);
-        if (rb.velocity.x > maxSpeed.x)
+        
+        float horizontal = 0f;
+        if (Input.GetKey(KeyCode.A))
         {
-            rb.velocity = new Vector2(maxSpeed.x,rb.velocity.y);
+            horizontal = -5;
         }
-        if (rb.velocity.x < -maxSpeed.x)
+        else if (Input.GetKey(KeyCode.D))
         {
-            rb.velocity = new Vector2(-maxSpeed.x, rb.velocity.y);
+            horizontal = 5f;
+        }
+        Vector3 movement = new Vector3(horizontal * speed, 0.0f);
 
-        }
+        rb.AddForce(movement);
+
     }
 
     void Update()
@@ -180,9 +183,17 @@ public class catController : MonoBehaviour
     {
         canClimb = true;
         treePos = other.transform.position;
+        treeAnimator = other.GetComponent<Animator>();
     }
     void OnTriggerExit2D(Collider2D other)
     {
         canClimb = false;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Flag")
+        {
+            nextLevel = true;
+        }
     }
 }

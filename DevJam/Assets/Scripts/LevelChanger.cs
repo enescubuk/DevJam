@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelChanger : MonoBehaviour
 {
-    public GameObject startCanvas, optionsCanvas;
+    public GameObject startCanvas, optionsCanvas,howtoCanvas;
     public Animator Animator;
     private int levelToLoad;
+
+    
+    [SerializeField] float fallValue;
     void Update()
     {
         
@@ -45,8 +48,12 @@ public class LevelChanger : MonoBehaviour
         startCanvas.SetActive(true);
         
     }
-    
-    
+    public void howto()
+    {
+        howtoCanvas.SetActive(true);
+        optionsCanvas.SetActive(false);
+        startCanvas.SetActive(false);
+    }
 
-    
+
 }
