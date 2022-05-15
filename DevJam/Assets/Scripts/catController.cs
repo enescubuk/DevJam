@@ -43,8 +43,7 @@ public class catController : MonoBehaviour
         if (hitDown.collider != null)
         {
             //Hit something, print the tag of the object
-            Debug.Log("Hitting Down: " + hitDown.collider.tag);
-
+            
             isHitDown = true;
 
         }
@@ -54,7 +53,7 @@ public class catController : MonoBehaviour
         {
             //Hit something, print the tag of the object
 
-            Debug.Log("Hitting Left: " + hitLeft.collider.tag);
+            
 
             isHitLeft = true;
 
@@ -64,7 +63,7 @@ public class catController : MonoBehaviour
         if (hitRight.collider != null)
         {
             //Hit something, print the tag of the object
-            Debug.Log("Hitting Right: " + hitRight.collider.tag);
+            
             //hitRight.collider.transform.GetChild(0).transform.position = new Vector3(5.0f, 3.0f, 0.0f);
             isHitRight = true;
         }
