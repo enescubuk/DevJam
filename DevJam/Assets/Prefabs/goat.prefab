@@ -104,6 +104,7 @@ MonoBehaviour:
   isHitRight: 0
   isHitLeft: 0
   isHitDown: 0
+  tas: {fileID: 0}
   jump: {x: 0, y: 2, z: 0}
   jumpForce: 2
   maxSpeed: {x: 0, y: 0}
@@ -260,6 +261,7 @@ MonoBehaviour:
   isHitRight: 0
   isHitLeft: 0
   isHitDown: 0
+  tas: {fileID: 5903932801551188171, guid: 0c1d95cc38a989f41b79130d565304ef, type: 3}
   jump: {x: 0, y: 2, z: 0}
   jumpForce: 3
   maxSpeed: {x: 4, y: 0}

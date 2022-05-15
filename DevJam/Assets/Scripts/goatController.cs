@@ -16,6 +16,9 @@ public class goatController : MonoBehaviour
     public bool isHitLeft;
     public bool isHitDown;
 
+    public RaycastHit2D hitRight;
+    public GameObject tas;
+    
     public Vector3 jump;
     public float jumpForce = 2.0f;
     public Vector2 maxSpeed;
@@ -36,7 +39,7 @@ public class goatController : MonoBehaviour
     {
 
         //Get the first object hit by the ray
-        RaycastHit2D hitRight = Physics2D.Raycast(new Vector3(transform.position.x + RayOffset, transform.position.y, transform.position.z), Vector2.right, laserLengthRight);
+        hitRight = Physics2D.Raycast(new Vector3(transform.position.x + RayOffset, transform.position.y, transform.position.z), Vector2.right, laserLengthRight);
 
         RaycastHit2D hitLeft = Physics2D.Raycast(new Vector3(transform.position.x - RayOffset, transform.position.y, transform.position.z), Vector2.left, laserLengthLeft);
 
@@ -140,6 +143,7 @@ public class goatController : MonoBehaviour
     }
     void Update()
     {
+        
         if(anim.GetCurrentAnimatorStateInfo(0).IsName("GoatKafa") == false)
         {
             Movement();
@@ -147,8 +151,22 @@ public class goatController : MonoBehaviour
             Jump();
             headOf();
         }
-
+        heightControl();
+        Debug.Log(rb.velocity.y);
     }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag=="kırılanTaş")
+        {
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName("GoatKafa") == true)
+            {
+                Destroy(tas);
+            }
+            
+        }
+    }
+
     void Movement()
     {
         float horizontal = Input.GetAxis("Horizontal");
@@ -188,7 +206,14 @@ public class goatController : MonoBehaviour
         {
             anim.SetTrigger("isGoatKafa");
         }
+    }
 
+    void heightControl()
+    {
+        if (rb.velocity.y < -9)
+        {
+            Debug.Log("öldü");
+        }
     }
 
     
