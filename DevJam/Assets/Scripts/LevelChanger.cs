@@ -5,14 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelChanger : MonoBehaviour
 {
+    public GameObject startCanvas, optionsCanvas;
     public Animator Animator;
     private int levelToLoad;
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            FadeToLevel(1);
-        }
+        
     }
 
     public void FadeToLevel(int levelIndex)
@@ -25,6 +23,30 @@ public class LevelChanger : MonoBehaviour
     {
         SceneManager.LoadScene(levelToLoad);
     } 
+    
+    
+    public void playButton()
+    {
+        FadeToLevel(1);
+    }
+    public void optionsButton()
+    {
+        startCanvas.SetActive(false);
+        optionsCanvas.SetActive(true);
+    }
+    public void quitButton()
+    {
+        Application.Quit();
+    }
+
+    public void backButton()
+    {
+        optionsCanvas.SetActive(false);
+        startCanvas.SetActive(true);
+        
+    }
+    
+    
 
     
 }
