@@ -34,28 +34,28 @@ public class heroChanger : MonoBehaviour
             lastArrayNumber = arrayNumber;
             arrayNumber--;
             if (arrayNumber == -1)
-        {
-            arrayNumber = 2;
-        }
-        else if(arrayNumber == 3)
-        {
-            arrayNumber = 0;
-        }
+            {
+                arrayNumber = 2;
+            }
+            else if(arrayNumber == 3)
+            {
+                arrayNumber = 0;
+            }   
             positionController();
         }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            lastArrayNumber = arrayNumber;
-            arrayNumber++;
-            if (arrayNumber == -1)
-        {
-            arrayNumber = 2;
-        }
-        else if(arrayNumber == 3)
-        {
-            arrayNumber = 0;
-        }
-            positionController();
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                lastArrayNumber = arrayNumber;
+                arrayNumber++;
+                if (arrayNumber == -1)
+                {
+                    arrayNumber = 2;
+                }
+                else if(arrayNumber == 3)
+                {
+                    arrayNumber = 0;
+                }
+                positionController();
         }
     }
 
@@ -65,5 +65,7 @@ public class heroChanger : MonoBehaviour
         heros[lastArrayNumber].SetActive(false);
         heros[arrayNumber].SetActive(true);
         heros[arrayNumber].transform.position = currentPos;
+        bool spriteX = heros[lastArrayNumber].GetComponent<SpriteRenderer>().flipX;
+        heros[arrayNumber].GetComponent<SpriteRenderer>().flipX = spriteX;
     }
 }

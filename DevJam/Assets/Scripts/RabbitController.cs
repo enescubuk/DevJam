@@ -109,13 +109,13 @@ public class RabbitController : MonoBehaviour
         if (horizontal < 0)
         {   
 
-            //ChildGameObject1.GetComponent<SpriteRenderer>().flipX = true;
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
             anim.SetBool("isRabbitRun", true);
 
         }
         if (horizontal > 0)
         {
-            //ChildGameObject1.GetComponent<SpriteRenderer>().flipX = false;
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
             anim.SetBool("isRabbitRun", true);
             
         }
@@ -151,7 +151,7 @@ public class RabbitController : MonoBehaviour
             nextActionTime += period;
          // execute block of code here
             Debug.Log("çalişti");
-            if (isHitDown == true && isPlayingRabbit == true)
+            if (isHitDown == true && isPlayingRabbit == true && Input.GetAxis("Horizontal") != 0)
             {
                 rb.AddForce(new Vector2(0,150));
             }
