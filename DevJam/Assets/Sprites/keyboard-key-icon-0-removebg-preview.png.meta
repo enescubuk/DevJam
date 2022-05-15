@@ -1,0 +1,3768 @@
+fileFormatVersion: 2
+guid: 8d25ce0676549254caffda74168fcd15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4010259003865934853
+    second: keyboard-key-icon-0-removebg-preview_0
+  - first:
+      213: -7358710414300094933
+    second: keyboard-key-icon-0-removebg-preview_1
+  - first:
+      213: -7474741972685646222
+    second: keyboard-key-icon-0-removebg-preview_2
+  - first:
+      213: 3627864131086036216
+    second: keyboard-key-icon-0-removebg-preview_3
+  - first:
+      213: -6195434173042564844
+    second: keyboard-key-icon-0-removebg-preview_4
+  - first:
+      213: 3774224826695235973
+    second: keyboard-key-icon-0-removebg-preview_5
+  - first:
+      213: -4944017918167528875
+    second: keyboard-key-icon-0-removebg-preview_6
+  - first:
+      213: -1044780267041108040
+    second: keyboard-key-icon-0-removebg-preview_7
+  - first:
+      213: -539883069064828504
+    second: keyboard-key-icon-0-removebg-preview_8
+  - first:
+      213: -1060252808948388191
+    second: keyboard-key-icon-0-removebg-preview_9
+  - first:
+      213: 4714965379464141575
+    second: keyboard-key-icon-0-removebg-preview_10
+  - first:
+      213: 3789663779160331398
+    second: keyboard-key-icon-0-removebg-preview_11
+  - first:
+      213: -1742951341708971061
+    second: keyboard-key-icon-0-removebg-preview_12
+  - first:
+      213: -3504331388061399080
+    second: keyboard-key-icon-0-removebg-preview_13
+  - first:
+      213: -2686082636731279650
+    second: keyboard-key-icon-0-removebg-preview_14
+  - first:
+      213: -8959382916382718436
+    second: keyboard-key-icon-0-removebg-preview_15
+  - first:
+      213: -8451037814230734494
+    second: keyboard-key-icon-0-removebg-preview_16
+  - first:
+      213: -340533688418377883
+    second: keyboard-key-icon-0-removebg-preview_17
+  - first:
+      213: 989392627802205005
+    second: keyboard-key-icon-0-removebg-preview_18
+  - first:
+      213: -3692801621446578386
+    second: keyboard-key-icon-0-removebg-preview_19
+  - first:
+      213: 1858342143919140152
+    second: keyboard-key-icon-0-removebg-preview_20
+  - first:
+      213: -8943853398318602748
+    second: keyboard-key-icon-0-removebg-preview_21
+  - first:
+      213: 4006920915071170991
+    second: keyboard-key-icon-0-removebg-preview_22
+  - first:
+      213: -6553877900254491188
+    second: keyboard-key-icon-0-removebg-preview_23
+  - first:
+      213: 3115004657442327813
+    second: keyboard-key-icon-0-removebg-preview_24
+  - first:
+      213: 3501869351282714974
+    second: keyboard-key-icon-0-removebg-preview_25
+  - first:
+      213: 8302332333465026494
+    second: keyboard-key-icon-0-removebg-preview_26
+  - first:
+      213: -2206550236699643879
+    second: keyboard-key-icon-0-removebg-preview_27
+  - first:
+      213: -8683403658869121718
+    second: keyboard-key-icon-0-removebg-preview_28
+  - first:
+      213: -3262119256366042337
+    second: keyboard-key-icon-0-removebg-preview_29
+  - first:
+      213: -7149329603307053903
+    second: z
+  - first:
+      213: 6953866311669983275
+    second: e
+  - first:
+      213: 5408383784604533359
+    second: r
+  - first:
+      213: -5204832134431690252
+    second: t
+  - first:
+      213: -7718380911629151538
+    second: keyboard-key-icon-0-removebg-preview_34
+  - first:
+      213: -6853556156696668960
+    second: keyboard-key-icon-0-removebg-preview_35
+  - first:
+      213: 993535773171873332
+    second: keyboard-key-icon-0-removebg-preview_36
+  - first:
+      213: -8790867827600525584
+    second: keyboard-key-icon-0-removebg-preview_37
+  - first:
+      213: -8540232312911624326
+    second: keyboard-key-icon-0-removebg-preview_38
+  - first:
+      213: -6477796880085766623
+    second: keyboard-key-icon-0-removebg-preview_39
+  - first:
+      213: 8672942778131178003
+    second: keyboard-key-icon-0-removebg-preview_40
+  - first:
+      213: 3939621204869762117
+    second: keyboard-key-icon-0-removebg-preview_41
+  - first:
+      213: -2689061382677845334
+    second: keyboard-key-icon-0-removebg-preview_42
+  - first:
+      213: -4385596146593314211
+    second: keyboard-key-icon-0-removebg-preview_43
+  - first:
+      213: -1318145952749372547
+    second: keyboard-key-icon-0-removebg-preview_44
+  - first:
+      213: -172323884539055362
+    second: keyboard-key-icon-0-removebg-preview_45
+  - first:
+      213: -8524131974035538838
+    second: keyboard-key-icon-0-removebg-preview_46
+  - first:
+      213: 6620098823822522339
+    second: keyboard-key-icon-0-removebg-preview_47
+  - first:
+      213: -7943451314834216412
+    second: keyboard-key-icon-0-removebg-preview_48
+  - first:
+      213: 1868465856559754954
+    second: keyboard-key-icon-0-removebg-preview_49
+  - first:
+      213: -8401717264022501409
+    second: keyboard-key-icon-0-removebg-preview_50
+  - first:
+      213: -5447111242761313942
+    second: keyboard-key-icon-0-removebg-preview_51
+  - first:
+      213: -6602301919292072882
+    second: keyboard-key-icon-0-removebg-preview_52
+  - first:
+      213: -3522985802371421190
+    second: keyboard-key-icon-0-removebg-preview_53
+  - first:
+      213: 2537523330890146681
+    second: keyboard-key-icon-0-removebg-preview_54
+  - first:
+      213: -6227102835252578939
+    second: keyboard-key-icon-0-removebg-preview_55
+  - first:
+      213: -670383614395008019
+    second: keyboard-key-icon-0-removebg-preview_56
+  - first:
+      213: -741652459065374753
+    second: keyboard-key-icon-0-removebg-preview_57
+  - first:
+      213: -5726824906109102705
+    second: keyboard-key-icon-0-removebg-preview_58
+  - first:
+      213: 6687723195463255740
+    second: keyboard-key-icon-0-removebg-preview_59
+  - first:
+      213: 8172489093133405660
+    second: keyboard-key-icon-0-removebg-preview_60
+  - first:
+      213: 5571613887441785376
+    second: keyboard-key-icon-0-removebg-preview_61
+  - first:
+      213: 8975974798137426766
+    second: keyboard-key-icon-0-removebg-preview_62
+  - first:
+      213: -6362911588493941362
+    second: keyboard-key-icon-0-removebg-preview_63
+  - first:
+      213: 491249961325323882
+    second: keyboard-key-icon-0-removebg-preview_64
+  - first:
+      213: 7020425888213172888
+    second: keyboard-key-icon-0-removebg-preview_65
+  - first:
+      213: 6332404310683743546
+    second: keyboard-key-icon-0-removebg-preview_66
+  - first:
+      213: -4154993425954555065
+    second: keyboard-key-icon-0-removebg-preview_67
+  - first:
+      213: -6192206552004164937
+    second: keyboard-key-icon-0-removebg-preview_68
+  - first:
+      213: 2338984865734835185
+    second: keyboard-key-icon-0-removebg-preview_69
+  - first:
+      213: 7951332183225301337
+    second: Z
+  - first:
+      213: 635177144733621661
+    second: A
+  - first:
+      213: 6181653143592902478
+    second: E
+  - first:
+      213: -2172727794337892135
+    second: R
+  - first:
+      213: 3789293759167677752
+    second: T
+  - first:
+      213: -2625116606620154574
+    second: Y
+  - first:
+      213: -6856709530035792431
+    second: keyboard-key-icon-0-removebg-preview_76
+  - first:
+      213: 7168744750364325373
+    second: keyboard-key-icon-0-removebg-preview_77
+  - first:
+      213: 7524579896222429150
+    second: keyboard-key-icon-0-removebg-preview_78
+  - first:
+      213: 4619422443890715481
+    second: keyboard-key-icon-0-removebg-preview_79
+  - first:
+      213: 5553858260129550350
+    second: Q
+  - first:
+      213: -7939055488823800835
+    second: keyboard-key-icon-0-removebg-preview_81
+  - first:
+      213: -1958287361102709556
+    second: D
+  - first:
+      213: -7285489976251105994
+    second: keyboard-key-icon-F
+  - first:
+      213: 8792000228842870331
+    second: keyboard-key-icon-0-removebg-preview_84
+  - first:
+      213: -4552549552224183751
+    second: keyboard-key-icon-0-removebg-preview_85
+  - first:
+      213: 5432001752040849793
+    second: keyboard-key-icon-0-removebg-preview_86
+  - first:
+      213: 3992310884382280011
+    second: keyboard-key-icon-0-removebg-preview_87
+  - first:
+      213: -4533693847204496055
+    second: keyboard-key-icon-0-removebg-preview_88
+  - first:
+      213: 8792662017390613424
+    second: keyboard-key-icon-0-removebg-preview_89
+  - first:
+      213: -5730118386213707412
+    second: keyboard-key-icon-0-removebg-preview_90
+  - first:
+      213: -250024620971040732
+    second: keyboard-key-icon-0-removebg-preview_91
+  - first:
+      213: 5149870854527976672
+    second: keyboard-key-icon-0-removebg-preview_92
+  - first:
+      213: 4991002259073765372
+    second: keyboard-key-icon-0-removebg-preview_93
+  - first:
+      213: -8115002534478235382
+    second: keyboard-key-icon-0-removebg-preview_94
+  - first:
+      213: 732905843587767740
+    second: keyboard-key-icon-0-removebg-preview_95
+  - first:
+      213: -6560516942429574783
+    second: keyboard-key-icon-0-removebg-preview_96
+  - first:
+      213: 8501250064553782740
+    second: keyboard-key-icon-0-removebg-preview_97
+  - first:
+      213: -8609268287864620320
+    second: keyboard-key-icon-0-removebg-preview_98
+  - first:
+      213: 7331328173321703151
+    second: keyboard-key-icon-0-removebg-preview_99
+  - first:
+      213: 6300379503269550771
+    second: keyboard-key-icon-0-removebg-preview_100
+  - first:
+      213: -4111510543835422731
+    second: keyboard-key-icon-0-removebg-preview_101
+  - first:
+      213: -7763368741482064432
+    second: keyboard-key-icon-0-removebg-preview_102
+  - first:
+      213: -8064211447845676890
+    second: keyboard-key-icon-0-removebg-preview_103
+  - first:
+      213: -5723665461264853641
+    second: keyboard-key-icon-0-removebg-preview_104
+  - first:
+      213: 8603503015144004902
+    second: keyboard-key-icon-0-removebg-preview_105
+  - first:
+      213: -4095207566114261288
+    second: keyboard-key-icon-0-removebg-preview_106
+  - first:
+      213: -151679927576803002
+    second: keyboard-key-icon-0-removebg-preview_107
+  - first:
+      213: 3100774915197544315
+    second: keyboard-key-icon-0-removebg-preview_108
+  - first:
+      213: 8546757211881014030
+    second: keyboard-key-icon-0-removebg-preview_109
+  - first:
+      213: 3516741035337073360
+    second: keyboard-key-icon-0-removebg-preview_110
+  - first:
+      213: -1620069199740548480
+    second: keyboard-key-icon-0-removebg-preview_111
+  - first:
+      213: -3607268525763196770
+    second: keyboard-key-icon-0-removebg-preview_112
+  - first:
+      213: -885283484254156720
+    second: keyboard-key-icon-0-removebg-preview_113
+  - first:
+      213: 1046067198147676825
+    second: keyboard-key-icon-0-removebg-preview_114
+  - first:
+      213: -1457516254799892644
+    second: keyboard-key-icon-0-removebg-preview_115
+  - first:
+      213: -1370163429715709093
+    second: keyboard-key-icon-0-removebg-preview_116
+  - first:
+      213: 3824538715110364288
+    second: keyboard-key-icon-0-removebg-preview_117
+  - first:
+      213: -2824321362198123425
+    second: keyboard-key-icon-0-removebg-preview_118
+  - first:
+      213: 2888405122447394071
+    second: keyboard-key-icon-0-removebg-preview_119
+  - first:
+      213: 4068047975689831116
+    second: keyboard-key-icon-0-removebg-preview_120
+  - first:
+      213: 7636874893341000192
+    second: keyboard-key-icon-0-removebg-preview_121
+  - first:
+      213: 1938043581146501551
+    second: keyboard-key-icon-0-removebg-preview_122
+  - first:
+      213: 3545355908623747166
+    second: keyboard-key-icon-0-removebg-preview_123
+  - first:
+      213: 7988967568133410038
+    second: keyboard-key-icon-0-removebg-preview_124
+  - first:
+      213: -6941444939562543303
+    second: keyboard-key-icon-0-removebg-preview_125
+  - first:
+      213: 8629913521924049610
+    second: keyboard-key-icon-0-removebg-preview_126
+  - first:
+      213: 4889056986763629450
+    second: keyboard-key-icon-0-removebg-preview_127
+  - first:
+      213: 309581876136255056
+    second: keyboard-key-icon-0-removebg-preview_128
+  - first:
+      213: -3915464678078159280
+    second: keyboard-key-icon-0-removebg-preview_129
+  - first:
+      213: -3499372480834316750
+    second: keyboard-key-icon-0-removebg-preview_130
+  - first:
+      213: -491700996678872497
+    second: keyboard-key-icon-0-removebg-preview_131
+  - first:
+      213: 924416463838065433
+    second: keyboard-key-icon-0-removebg-preview_132
+  - first:
+      213: -9143554240074757460
+    second: keyboard-key-icon-0-removebg-preview_133
+  - first:
+      213: -4557589333060055372
+    second: keyboard-key-icon-0-removebg-preview_134
+  - first:
+      213: -2475792472638061202
+    second: keyboard-key-icon-0-removebg-preview_135
+  - first:
+      213: -7013408770670168970
+    second: keyboard-key-icon-0-removebg-preview_136
+  - first:
+      213: -5864932990930294092
+    second: keyboard-key-icon-0-removebg-preview_137
+  - first:
+      213: 4918768916801150885
+    second: keyboard-key-icon-0-removebg-preview_138
+  - first:
+      213: -2138741226294446414
+    second: keyboard-key-icon-0-removebg-preview_139
+  - first:
+      213: 699043074715811671
+    second: keyboard-key-icon-0-removebg-preview_140
+  - first:
+      213: 4703366191556290205
+    second: keyboard-key-icon-0-removebg-preview_141
+  - first:
+      213: -6076425956863452420
+    second: keyboard-key-icon-0-removebg-preview_142
+  - first:
+      213: 7996865815646767377
+    second: keyboard-key-icon-0-removebg-preview_143
+  - first:
+      213: -3356224690877531320
+    second: keyboard-key-icon-0-removebg-preview_144
+  - first:
+      213: 5075923267000689508
+    second: keyboard-key-icon-0-removebg-preview_145
+  - first:
+      213: 4216185657224997455
+    second: keyboard-key-icon-0-removebg-preview_146
+  - first:
+      213: 3398375166422585125
+    second: keyboard-key-icon-0-removebg-preview_147
+  - first:
+      213: -4451317065589198478
+    second: keyboard-key-icon-0-removebg-preview_148
+  - first:
+      213: 4563032940626599057
+    second: SPACE
+  - first:
+      213: -476596983146991552
+    second: keyboard-key-icon-0-removebg-preview_150
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 390
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cadb6115d47a730800000000000000
+      internalID: 4010259003865934853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2edca6cddb90e990800000000000000
+      internalID: -7358710414300094933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 390
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2769e5a57c1644890800000000000000
+      internalID: -7474741972685646222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fca3cab433c85230800000000000000
+      internalID: 3627864131086036216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4116b76c175650aa0800000000000000
+      internalID: -6195434173042564844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58931a1bb7db06430800000000000000
+      internalID: 3774224826695235973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a4570e5e1536bb0800000000000000
+      internalID: -4944017918167528875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf4da2f1e13081f0800000000000000
+      internalID: -1044780267041108040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9a4288533f188f0800000000000000
+      internalID: -539883069064828504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae658e00b93941f0800000000000000
+      internalID: -1060252808948388191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b993b180cee6140800000000000000
+      internalID: 4714965379464141575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684140fe027979430800000000000000
+      internalID: 3789663779160331398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc375a04dfacfc7e0800000000000000
+      internalID: -1742951341708971061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 390
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d749575b2d1e5fc0800000000000000
+      internalID: -3504331388061399080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 352
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed69948c21e19bad0800000000000000
+      internalID: -2686082636731279650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 352
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c160e46d4b0e9a380800000000000000
+      internalID: -8959382916382718436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 352
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269226b22e1e7ba80800000000000000
+      internalID: -8451037814230734494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fd4c32a6e264bf0800000000000000
+      internalID: -340533688418377883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b6a8b5a570bbd00800000000000000
+      internalID: 989392627802205005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fa0b79d7880ccc0800000000000000
+      internalID: -3692801621446578386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d207f75582ac910800000000000000
+      internalID: 1858342143919140152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406ac0688bc01e380800000000000000
+      internalID: -8943853398318602748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa976e9b7517b9730800000000000000
+      internalID: 4006920915071170991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd4c0e06c2fb05a0800000000000000
+      internalID: -6553877900254491188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d89806b38ba3b20800000000000000
+      internalID: 3115004657442327813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59a80d0f93299030800000000000000
+      internalID: 3501869351282714974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf3c67054fc73370800000000000000
+      internalID: 8302332333465026494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 352
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910b6722042c061e0800000000000000
+      internalID: -2206550236699643879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 314
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d57cff06a5e7780800000000000000
+      internalID: -8683403658869121718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 314
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13375dd1df9ab2d0800000000000000
+      internalID: -3262119256366042337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 314
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcd2b4ca9a78cc90800000000000000
+      internalID: -7149329603307053903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: e
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 316
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2825aa3198118060800000000000000
+      internalID: 6953866311669983275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 315
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f620652b5607e0b40800000000000000
+      internalID: 5408383784604533359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 315
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f139a700c8b4c7b0800000000000000
+      internalID: -5204832134431690252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 315
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec25031647dc2e490800000000000000
+      internalID: -7718380911629151538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 315
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e457e7bcf643e0a0800000000000000
+      internalID: -6853556156696668960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 315
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4367d8f858fb9cd00800000000000000
+      internalID: 993535773171873332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 315
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6f57c6940900680800000000000000
+      internalID: -8790867827600525584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 315
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a770791a5fffa7980800000000000000
+      internalID: -8540232312911624326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 315
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12eaa53fe0e3a16a0800000000000000
+      internalID: -6477796880085766623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 315
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3126cc7618b7c5870800000000000000
+      internalID: 8672942778131178003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 315
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ccbd1ec985ca630800000000000000
+      internalID: 3939621204869762117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 277
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa24427be88eaad0800000000000000
+      internalID: -2689061382677845334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5acbf16a8b3323c0800000000000000
+      internalID: -4385596146593314211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b31446d3105bde0800000000000000
+      internalID: -1318145952749372547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2fbbb0758cb9df0800000000000000
+      internalID: -172323884539055362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 277
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cff05e12334b980800000000000000
+      internalID: -8524131974035538838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e73ce33ec05fdb50800000000000000
+      internalID: 6620098823822522339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a62b88d1133c190800000000000000
+      internalID: -7943451314834216412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acea0370ccf1ee910800000000000000
+      internalID: 1868465856559754954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd70cae99aa176b80800000000000000
+      internalID: -8401717264022501409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61ec2b4f29f764b0800000000000000
+      internalID: -5447111242761313942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c57b88269ef54a0800000000000000
+      internalID: -6602301919292072882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb28ec0417db1fc0800000000000000
+      internalID: -3522985802371421190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97329fa6608173320800000000000000
+      internalID: 2537523330890146681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 277
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58531f4c6f2e499a0800000000000000
+      internalID: -6227102835252578939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 239
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb3eb097a152b6f0800000000000000
+      internalID: -670383614395008019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 239
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd70d96940f15b5f0800000000000000
+      internalID: -741652459065374753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 239
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85d184071b3680b0800000000000000
+      internalID: -5726824906109102705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 239
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb64abd20d09fcc50800000000000000
+      internalID: 6687723195463255740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 239
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd88fec7838a6170800000000000000
+      internalID: 8172489093133405660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 239
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022d99a9f49525d40800000000000000
+      internalID: 5571613887441785376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 239
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4307dba581119c70800000000000000
+      internalID: 8975974798137426766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 239
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e852a965f9562b7a0800000000000000
+      internalID: -6362911588493941362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 239
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6668b0bc3541d600800000000000000
+      internalID: 491249961325323882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 239
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89207e646209d6160800000000000000
+      internalID: 7020425888213172888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 239
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35f4788b2831e750800000000000000
+      internalID: 6332404310683743546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 239
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b35e14e7f7656c0800000000000000
+      internalID: -4154993425954555065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 239
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b202fbd2fcd01aa0800000000000000
+      internalID: -6192206552004164937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 239
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbb329c75eb57020800000000000000
+      internalID: 2338984865734835185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95976402e7ec85e60800000000000000
+      internalID: 7951332183225301337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d5b417f3a90d800800000000000000
+      internalID: 635177144733621661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f188448c4a9c550800000000000000
+      internalID: 6181653143592902478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 201
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d83fd8259be8d1e0800000000000000
+      internalID: -2172727794337892135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8354bc0f896469430800000000000000
+      internalID: 3789293759167677752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2354d60da56b19bd0800000000000000
+      internalID: -2625116606620154574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 201
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d55e26c20318d0a0800000000000000
+      internalID: -6856709530035792431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df579ea6e5f7c7360800000000000000
+      internalID: 7168744750364325373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf22667c8dac6860800000000000000
+      internalID: 7524579896222429150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 201
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ba29bec3c7b1040800000000000000
+      internalID: 4619422443890715481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Q
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 201
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0014e779a4431d40800000000000000
+      internalID: 5553858260129550350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 201
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbca88881fc2d190800000000000000
+      internalID: -7939055488823800835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 201
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccf5514504c2d4e0800000000000000
+      internalID: -1958287361102709556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-F
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 201
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d32ee777db4ea90800000000000000
+      internalID: -7285489976251105994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 163
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36155940a5730a70800000000000000
+      internalID: 8792000228842870331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 163
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a505d7d4812d0c0800000000000000
+      internalID: -4552549552224183751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 163
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181c1b140d8526b40800000000000000
+      internalID: 5432001752040849793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 163
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b490880e899876730800000000000000
+      internalID: 3992310884382280011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 163
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d700d67751511c0800000000000000
+      internalID: -4533693847204496055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 163
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b313a0f48fc50a70800000000000000
+      internalID: 8792662017390613424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 163
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c612cccefa78a70b0800000000000000
+      internalID: -5730118386213707412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 163
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4206be19eebb78cf0800000000000000
+      internalID: -250024620971040732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 163
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4074bc144087740800000000000000
+      internalID: 5149870854527976672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 163
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff83457c1a934540800000000000000
+      internalID: 4991002259073765372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 163
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09b705a038b16f80800000000000000
+      internalID: -8115002534478235382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 163
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd5bdc4bfdcb2a00800000000000000
+      internalID: 732905843587767740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 163
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189ad87999c54f4a0800000000000000
+      internalID: -6560516942429574783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 163
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddae7464e18af570800000000000000
+      internalID: 8501250064553782740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 126
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea3bc52b1cb58880800000000000000
+      internalID: -8609268287864620320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee47ae612c1eb560800000000000000
+      internalID: 7331328173321703151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba988207c17f6750800000000000000
+      internalID: 6300379503269550771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff9a60b1faf0f6c0800000000000000
+      internalID: -4111510543835422731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5179ff249f24490800000000000000
+      internalID: -7763368741482064432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a815890a6a261090800000000000000
+      internalID: -8064211447845676890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775d22896947190b0800000000000000
+      internalID: -5723665461264853641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d19a1b868c56770800000000000000
+      internalID: 8603503015144004902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6744c7a66ea27c0800000000000000
+      internalID: -4095207566114261288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6494a35d8ef15edf0800000000000000
+      internalID: -151679927576803002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77aac45b5a280b20800000000000000
+      internalID: 3100774915197544315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e030dabc66e2c9670800000000000000
+      internalID: 8546757211881014030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_110
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 126
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d24e42d659fdc030800000000000000
+      internalID: 3516741035337073360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_111
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 126
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ac9e575ab5489e0800000000000000
+      internalID: -1620069199740548480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_112
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 88
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e980070536860fdc0800000000000000
+      internalID: -3607268525763196770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_113
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058c28b8c57d6b3f0800000000000000
+      internalID: -885283484254156720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_114
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ac7cc0390648e00800000000000000
+      internalID: 1046067198147676825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_115
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f6b4240bcd5cbe0800000000000000
+      internalID: -1457516254799892644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_116
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 88
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53709fbe933cfce0800000000000000
+      internalID: -1370163429715709093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_117
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084d1e7b2bd731530800000000000000
+      internalID: 3824538715110364288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_118
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c22aa5faefdc8d0800000000000000
+      internalID: -2824321362198123425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_119
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71545eac72da51820800000000000000
+      internalID: 2888405122447394071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_120
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc24d38941c947830800000000000000
+      internalID: 4068047975689831116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_121
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00280bbe041abf960800000000000000
+      internalID: 7636874893341000192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_122
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1967d6e5055ea10800000000000000
+      internalID: 1938043581146501551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_123
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58c9df2a62a33130800000000000000
+      internalID: 3545355908623747166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_124
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc45b40da38ede60800000000000000
+      internalID: 7988967568133410038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_125
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 88
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9371175da980baf90800000000000000
+      internalID: -6941444939562543303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_126
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca8f9cff9c93c770800000000000000
+      internalID: 8629913521924049610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_127
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8310b61d6b69d340800000000000000
+      internalID: 4889056986763629450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_128
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e100c731bdb4400800000000000000
+      internalID: 309581876136255056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_129
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056ef8cce9979a9c0800000000000000
+      internalID: -3915464678078159280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_130
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236d717e44bbf6fc0800000000000000
+      internalID: -3499372480834316750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_131
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4210457c802d29f0800000000000000
+      internalID: -491700996678872497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_132
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913379740ef24dc00800000000000000
+      internalID: 924416463838065433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_133
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caac3dffcd19b1180800000000000000
+      internalID: -9143554240074757460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_134
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be88d216a030c0c0800000000000000
+      internalID: -4557589333060055372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_135
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6582da0dd734add0800000000000000
+      internalID: -2475792472638061202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_136
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 50
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6747897b1ed5bae90800000000000000
+      internalID: -7013408770670168970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_137
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 51
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba612cb4829b9ea0800000000000000
+      internalID: -5864932990930294092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_138
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 51
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af5a22e44af24440800000000000000
+      internalID: 4918768916801150885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_139
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 50
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b67c3caf2aa152e0800000000000000
+      internalID: -2138741226294446414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_140
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 13
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ff12709ff73b900800000000000000
+      internalID: 699043074715811671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_141
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 13
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d966b48b1a6b54140800000000000000
+      internalID: 4703366191556290205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_142
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 12
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfad03959c23caba0800000000000000
+      internalID: -6076425956863452420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_143
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 12
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119071217139afe60800000000000000
+      internalID: 7996865815646767377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_144
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 12
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b79d9fc6b4c61d0800000000000000
+      internalID: -3356224690877531320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_145
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 13
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46367b4615d417640800000000000000
+      internalID: 5075923267000689508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_146
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 13
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a2ef55486e28a30800000000000000
+      internalID: 4216185657224997455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_147
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 12
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f80206534792f20800000000000000
+      internalID: 3398375166422585125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_148
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 13
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271fbe286beb932c0800000000000000
+      internalID: -4451317065589198478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPACE
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 21
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c54749846235f30800000000000000
+      internalID: 4563032940626599057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-key-icon-0-removebg-preview_150
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 12
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0403086a199c269f0800000000000000
+      internalID: -476596983146991552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
