@@ -46,7 +46,7 @@ public class goatController : MonoBehaviour
         if (hitDown.collider != null)
         {
             //Hit something, print the tag of the object
-            Debug.Log("Hitting: " + hitDown.collider.tag);
+           
             if (isGroundedLeft!=true && isGroundedRight!=true)
             {
                 isGroundedDown = true;
@@ -65,7 +65,7 @@ public class goatController : MonoBehaviour
         {
             //Hit something, print the tag of the object
 
-            Debug.Log("Hitting: " + hitLeft.collider.tag);
+            
             if (isGroundedRight!=true)
             {
                 isGroundedLeft = true;
@@ -83,7 +83,7 @@ public class goatController : MonoBehaviour
         if (hitRight.collider != null)
         {
             //Hit something, print the tag of the object
-            Debug.Log("Hitting: " + hitRight.collider.tag);
+            
             if (isGroundedLeft!=true)
             {
                 isGroundedRight = true;
@@ -119,8 +119,8 @@ public class goatController : MonoBehaviour
         {
             if (isGroundedLeft || isGroundedDown!=true)
             {
-                Debug.Log(1);
-                jump.y = 3;
+                
+                jump.y = 2;
                 jump.x = 2;
                 rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
                 anim.SetTrigger("isGoatJump");
@@ -130,9 +130,9 @@ public class goatController : MonoBehaviour
         {
             if (isGroundedRight || isGroundedDown!=true)
             {
-                jump.y = 3;
+                jump.y = 2;
                 jump.x = -2;
-                Debug.Log(2);
+                
                 rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
                 anim.SetTrigger("isGoatJump");
             }
