@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class tutorial : MonoBehaviour
 {
-    bool girdi;
-    public GameObject q,e,space,a,d;
+    public GameObject qe,space;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,10 +19,18 @@ public class tutorial : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other)
     {
-        girdi = true;
+        if (other.tag == "space")
+        {
+            Debug.Log("girdi");
+            qe.SetActive(false);
+            space.GetComponent<SpriteRenderer>().enabled = true;
+        }
     }
     void OnTriggerExit2D(Collider2D other)
     {
-        girdi = false;
+        if (other.tag == "space")
+        {
+            space.SetActive(false);
+        }
     }
 }

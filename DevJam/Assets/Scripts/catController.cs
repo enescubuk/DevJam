@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class catController : MonoBehaviour
 {
+    public Animator treeAnimator;
     public float speed = 2;
     float RayOffset = 1; 
     //Length of the ray
@@ -21,9 +22,15 @@ public class catController : MonoBehaviour
     Animator anim => GetComponent<Animator>();
     SpriteRenderer spriteRenderer => GetComponent<SpriteRenderer>();
     bool canClimb;
-    float treeOffset = 0.75f;
+    public float treeOffsetX,treeOffsetY;
     Vector3 treePos;
     Vector2 maxSpeed = new Vector2(4,0);
+
+    private Vector3 endPosition = new Vector3(5, -2, 0);
+    private Vector3 startPosition;
+    private float desiredDuration = 1.25f;
+    private float elapsedTime;
+    bool lerpClimb;
     void Start()
     {
         
@@ -91,9 +98,23 @@ public class catController : MonoBehaviour
     
     void Climb()
     {
-        spriteRenderer.enabled = false;
-        transform.position = new Vector3(treePos.x,treePos.y + treeOffset,treePos.z);
-        StartCoroutine(waitForClimb());
+        if (canClimb)
+        {
+            Debug.Log("içerdeyim baba");
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                lerpClimb = true;
+                startPosition = transform.position;
+                spriteRenderer.enabled = false;
+                //transform.position = new Vector3(treePos.x + treeOffsetX ,treePos.y + treeOffsetY,treePos.z);
+                treeAnimator.SetTrigger("climb");
+                StartCoroutine(waitForClimb());
+                
+
+            }
+            
+        }
+        
     }
 
     void animControls()
@@ -133,24 +154,26 @@ public class catController : MonoBehaviour
 
     void Update()
     {
+
         ControlRays();
         Jump();
         animControls();
         charMove();
-        if (canClimb)
+        Climb();
+        if (lerpClimb == true)
         {
-            Debug.Log("içerdeyim baba");
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                Climb();
-            }
+            elapsedTime += Time.deltaTime;
+        float percentageComplete = elapsedTime / desiredDuration;
+    
+        transform.position = Vector3.Lerp(startPosition, new Vector3(treePos.x + treeOffsetX ,treePos.y + treeOffsetY,treePos.z), percentageComplete);
         }
     }
 
     IEnumerator waitForClimb()
     {
-        yield return new WaitForSecondsRealtime(1.5f);
+        yield return new WaitForSecondsRealtime(1.25f);
         spriteRenderer.enabled = true;
+        lerpClimb = false;
     }
 
     void OnTriggerEnter2D(Collider2D other)

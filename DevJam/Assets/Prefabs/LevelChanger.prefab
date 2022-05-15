@@ -139,6 +139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae480b97fa8b14b4e81702c6465c0b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startCanvas: {fileID: 0}
+  optionsCanvas: {fileID: 0}
   Animator: {fileID: 9832096521389992}
 --- !u!1 &9832096647713383
 GameObject:
