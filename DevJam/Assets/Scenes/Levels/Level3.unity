@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5903932801551188169, guid: 0c1d95cc38a989f41b79130d565304ef, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5903932801551188169, guid: 0c1d95cc38a989f41b79130d565304ef, type: 3}
       propertyPath: m_LocalPosition.x
@@ -178,8 +178,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: "ta\u015F"
       objectReference: {fileID: 0}
+    - target: {fileID: 5903932801551188183, guid: 0c1d95cc38a989f41b79130d565304ef, type: 3}
+      propertyPath: goat
+      value: 
+      objectReference: {fileID: 1153932115}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c1d95cc38a989f41b79130d565304ef, type: 3}
+--- !u!95 &5746166 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3704114060051170575, guid: 0c1d95cc38a989f41b79130d565304ef, type: 3}
+  m_PrefabInstance: {fileID: 5746165}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &148735632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6537,6 +6546,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7928736348080524116, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
+      propertyPath: animTas
+      value: 
+      objectReference: {fileID: 5746166}
     - target: {fileID: 7928736348737076901, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
       propertyPath: m_Name
       value: goat
@@ -6547,7 +6560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7928736348737076958, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7928736348737076958, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6589,6 +6602,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7928736348737076959, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
+      propertyPath: animTas
+      value: 
+      objectReference: {fileID: 5746166}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
 --- !u!1 &840944181
@@ -6969,7 +6986,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1441421952
 GameObject:
@@ -7324,7 +7341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646308790999968654, guid: b3c55282604a2094694c81e26757fbdd, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5646308790999968654, guid: b3c55282604a2094694c81e26757fbdd, type: 3}
       propertyPath: m_LocalPosition.x

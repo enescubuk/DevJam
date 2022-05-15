@@ -26,9 +26,11 @@ public class goatController : MonoBehaviour
     private bool isGroundedDown = true;
     private bool isGroundedLeft = true;
     private bool isGroundedRight = true;
+    public bool isStone;
     [SerializeField] float speed;
     Rigidbody2D rb => GetComponent<Rigidbody2D>();
     public Animator anim;
+    public Animator animTas;
     GameObject ChildGameObject1 => transform.GetChild(0).gameObject;
     void Start()
     {
@@ -143,6 +145,19 @@ public class goatController : MonoBehaviour
     }
     void Update()
     {
+        if (isHitRight && hitRight.collider.tag =="kırılanTaş")
+        {
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName("GoatKafa") == true)
+            {
+                isStone = true;
+            }
+        }
+
+        if (isHitRight == false)
+        {
+            isStone = false;
+
+        }
         
         if(anim.GetCurrentAnimatorStateInfo(0).IsName("GoatKafa") == false)
         {
@@ -161,12 +176,15 @@ public class goatController : MonoBehaviour
         {
             if (anim.GetCurrentAnimatorStateInfo(0).IsName("GoatKafa") == true)
             {
-                Destroy(tas);
+                isStone = true;
             }
             
         }
     }
 
+   
+
+    
     void Movement()
     {
         float horizontal = Input.GetAxis("Horizontal");

@@ -393,6 +393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "ta\u015F"
       objectReference: {fileID: 0}
+    - target: {fileID: 5903932801551188183, guid: 0c1d95cc38a989f41b79130d565304ef, type: 3}
+      propertyPath: goat
+      value: 
+      objectReference: {fileID: 1153932115}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c1d95cc38a989f41b79130d565304ef, type: 3}
 --- !u!1 &790952277
@@ -5466,6 +5470,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7928736348080524116, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
+      propertyPath: tas
+      value: 
+      objectReference: {fileID: 1645037582}
+    - target: {fileID: 7928736348080524116, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
+      propertyPath: animTas
+      value: 
+      objectReference: {fileID: 1645037583}
     - target: {fileID: 7928736348737076901, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
       propertyPath: m_Name
       value: goat
@@ -5530,6 +5542,10 @@ PrefabInstance:
       propertyPath: jump.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7928736348737076959, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
+      propertyPath: animTas
+      value: 
+      objectReference: {fileID: 1645037583}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38c5721c8ddb5a940b067ad53b64cc9b, type: 3}
 --- !u!1 &840944181
@@ -6163,6 +6179,11 @@ GameObject:
 --- !u!1 &1645037582 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5903932801551188171, guid: 0c1d95cc38a989f41b79130d565304ef, type: 3}
+  m_PrefabInstance: {fileID: 786391088}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1645037583 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3704114060051170575, guid: 0c1d95cc38a989f41b79130d565304ef, type: 3}
   m_PrefabInstance: {fileID: 786391088}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1666059486
